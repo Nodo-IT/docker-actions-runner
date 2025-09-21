@@ -1,6 +1,6 @@
 services:
   runner:
-    container_name: nodoit-angular-github-runner
+    container_name: ${RUNNER_NAME}
     # build:
     #   context: .
     #   dockerfile: Dockerfile
